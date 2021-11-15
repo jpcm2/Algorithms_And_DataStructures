@@ -54,11 +54,11 @@ public:
 		return cur;
 	}
 	void girar(){
-		Node *p = acessar(sz - 1);
+		aNode *p = acessar(sz - 1);
 		Node *last = p->next;
 		p->next = last->next;
 		last->next = head->next;
-		head->next = last;
+		head->next = last;  
 	}
 	~Cirucular_List(){
 		Node *cur = head;
