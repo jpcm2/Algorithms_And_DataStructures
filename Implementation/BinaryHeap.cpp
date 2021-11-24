@@ -3,10 +3,11 @@
 using namespace std;
 
 class BinaryHeap{
-public:
+private:
 	int *H;
 	int sizeH;
 	int heapSize;
+public:
 	BinaryHeap(){
 		H = NULL;
 		sizeH = 0;
