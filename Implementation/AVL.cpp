@@ -12,8 +12,9 @@ struct Node
 };
 
 class AVL{
-public:
+private:
    Node *raiz;
+public:
    AVL(){
       cout << "Criei a AVL papai" << endl;
       raiz = NULL;   
