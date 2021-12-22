@@ -12,8 +12,9 @@ struct Node
 };
 
 class AVL{
-public:
+private:
    Node *raiz;
+public:
    AVL(){
       cout << "Criei a AVL papai" << endl;
       raiz = NULL;   
@@ -197,10 +198,6 @@ public:
 };
 
 int main(){
-   AVL tree;
-   for(int i = 1; i <= 15; ++i){
-      tree.raiz = tree.inserir(tree.raiz, 10*i).first;
-   }  
-   tree.pre_order(tree.raiz);
+   
    return 0;
 }

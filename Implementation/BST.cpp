@@ -11,8 +11,8 @@ struct Node{
 class BST{
 private:
 	int qtd;
-public:
 	Node *root;
+public:
 	BST(){
 		cout << "Criei a BST papai" << endl;
 		root = NULL;
@@ -128,14 +128,5 @@ public:
 };
 
 int main(){
-	BST tree;
-	tree.root =  tree.inserir(tree.root, 10);
-	tree.root =  tree.inserir(tree.root, 4);
-	tree.root =  tree.inserir(tree.root, 12);
-	tree.root =  tree.inserir(tree.root, 2);
-	tree.root =  tree.inserir(tree.root, 6);
-	tree.root =  tree.inserir(tree.root, 8);
-	tree.root =  tree.inserir(tree.root, 14);
-	tree.pre_order(tree.root);
 	return 0;
 }
