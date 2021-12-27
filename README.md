@@ -8,5 +8,5 @@
 #### - BST, AVL
 #### - Binary Heap
 #### - DFS, BFS, Topological Sort
-#### - Dijkstra Algorithm , MST, Bellman-Ford Algorithm, 
+#### - Dijkstra Algorithm , MST, Bellman-Ford Algorithm
  
